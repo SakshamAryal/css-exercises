@@ -68,22 +68,22 @@ button.cancel {
   color: royalblue;
 }
 
-
 .modal {
   display: flex;
-  justify-items: space-between;
-  padding: 8px;
-  
+  gap: 16px;
+  padding: 16px;
 }
-.container {
-  justify-content: center;
-
+.icon {
+  flex-shrink: 0;
 }
-.info {
-  flex-direction: column;
-}
-.head-container {
+.header {
   display: flex;
   justify-content: space-between;
   font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.text {
+  margin-bottom: 16px;
 }
